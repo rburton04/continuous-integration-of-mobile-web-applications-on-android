@@ -47,11 +47,6 @@
         </configuration>
     </container>
 
-    <extension qualifier="selenium-server">
-        <!-- this must be skipped, we run /wd/hub on emulator -->
-        <property name="skip">true</property>
-    </extension>
-
     <extension qualifier="webdriver">
         <!-- set the browser to android -->
         <property name="browserCapabilities">android</property>
