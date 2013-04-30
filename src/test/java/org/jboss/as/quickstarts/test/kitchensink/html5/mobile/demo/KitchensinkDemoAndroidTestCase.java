@@ -79,9 +79,9 @@ public class KitchensinkDemoAndroidTestCase extends KitchensinkDemoTest {
         androidPage.navigateToListPage();
         // wait for the row list page to load
         membersPage.waitUntilPageIsLoaded();
-        // assert that two members exist
+        // assert that one member exist
         Assert.assertTrue (membersPage.getMembersCount() == 1);
-        // assert that the previously registered member exists in the list
+        // assert that the default member exists in the list
         Assert.assertTrue (membersPage.memberExists(defaultUserName, defaultUserEmail, defaultUserPhoneNumber));
     }
 
