@@ -3,6 +3,8 @@ This project contains the functional tests for the [Kitchensink HTML5 Mobile Dem
 
 The [Arquillian](http://arquillian.org/) testing platform is used to enable the testing automation. Arquillian integrates transparently with the testing framework which is JUnit in this case.
 
+You can find a relevant video which shows the testing procedure in action [here](http://vimeo.com/65100903).
+
 ## Functional Test Content
 The Kitchensink HTML5 Mobile Functional Test defines the three core aspects needed for the execution of an [Arquillian](http://arquillian.org/) test case:
 
